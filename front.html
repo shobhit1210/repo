@@ -1,62 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attractive Website</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transport Services</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <h1>Chauhan Transport Company</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Header Section -->
-    <header>
-        <div class="container">
-            <h1>Elegant Website</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Your Reliable Transport Partner</h2>
+      <p>Safe and efficient transport services for all your needs</p>
+      <a href="#contact" class="cta-button">Get in Touch</a>
+    </div>
+  </section>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h2>Welcome to an Amazing Website</h2>
-            <p>Explore a world of elegance, simplicity, and beauty with us!</p>
-            <a href="#" class="btn">Learn More</a>
-        </div>
-    </section>
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Freight Shipping</h3>
+        <p>We offer reliable freight shipping for all kinds of goods.</p>
+      </div>
+      <div class="card">
+        <h3>Truck Rentals</h3>
+        <p>Rent a truck for your personal or business needs at affordable rates.</p>
+      </div>
+      <div class="card">
+        <h3>Local Delivery</h3>
+        <p>Fast and secure local delivery for all your parcels and packages.</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Main Content Section -->
-    <section class="content">
-        <div class="container">
-            <div class="card">
-                <h3>Our Services</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet.</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-            <div class="card">
-                <h3>Our Vision</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet.</p>
-                <a href="#" class="btn">Learn More</a>
-            </div>
-            <div class="card">
-                <h3>Get in Touch</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet.</p>
-                <a href="#" class="btn">Contact Us</a>
-            </div>
-        </div>
-    </section>
+  <!-- About Us Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are a trusted transport company providing fast, reliable, and affordable services for over 20 years. Our team is dedicated to ensuring the safe and timely delivery of goods to your destination.</p>
+  </section>
 
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 Elegant Website | Designed with ❤️</p>
-    </footer>
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form action="#">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; Chauhan Transport company | Website Designed by Shobhit Chauhan</p>
+  </footer>
 </body>
 </html>
